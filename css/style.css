@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+body {
+	font-family: 'Duru Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Duru Sans', Open Sans Light;
+}
+header {
+	background:url(../img/headerbackground.jpg) no-repeat;
+	height:300px;
+	width:100%;
+	color: #fff;
+}
+header h1 {
+	font-size: 60px;
+	margin-top: 120px;
+}
+#box1 {
+	background: url(../img/about.jpg) no-repeat;
+	background-color: #B3B6B7;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	color: #000;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#box1 h1{
+	margin-bottom: 40px;
+}
+#box1 p{
+	margin-bottom: 40px;
+}
+.skroler {
+	margin-top: 80px;
+	font-size: 18px;
+	border: 1px solid #fff;
+	width: 43px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-radius: 100%;
+}
+#about .row {
+	margin-bottom: 50px;
+	text-align: center;
+}
+#about .glyphicon {
+	font-size: 32px;
+	color: #428bca;
+	margin-bottom: 10px;
+	border: 1px solid #AAA;
+	width: 80px;
+	border-radius: 100%;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+#about h3 {
+	margin-bottom: 20px;
+}
+#about .glyphicon {
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+
+}
+#about .col-md-3:hover .glyphicon {
+	border: 1px solid #428bca;
+	background: #428bca;
+	color: #fff;
+}
+#about2 {
+	padding-top: 180px;
+	padding-bottom: 50px;
+	background: #eaeaea;
+	text-align: right;
+
+	-moz-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+}
+#about2 .glyphicon {
+	font-size: 32px;
+	color: #428bca;
+	margin-bottom: 10px;
+	border: 1px solid #AAA;
+	width: 80px;
+	border-radius: 100%;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	text-align: center;
+}
+/* Big Triangle */
+svg#bigTriangleColor {
+	margin-bottom: -100px;
+	pointer-events: none;
+}
+
+#bigTriangleColor path {
+	fill: #ffffff;
+	stroke: #ffffff;
+	stroke-width: 2;
+}
+
+#portfolio {
+	background: #ffffff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#portfolio .col-md-4 {
+	margin-bottom: 30px;
+}
+#portfolio h4 {
+	margin-bottom: 60px;
+	padding-top: 20px;
+	color: #777777;
+}
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(238, 238, 238, 0.90);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#777777 !important;
+    font-weight: bold;
+    z-index:2;
+}
+#about3 {
+	background: url(../img/about3bk.jpg) no-repeat;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #000;
+}
+#about3 .glyphicon {
+	font-size: 22px;
+	margin-bottom: 10px;
+	background-color: #333333;
+	width: 80px;
+	border-radius: 100%;
+	padding:28px;
+	text-align: center;
+}
+#about3 .row {
+	margin-bottom: 40px;
+}
+#about3 .feature {
+	padding-top: 50px;
+}
+#about3 h4 {
+	font-weight: bold;
+}
+
+
+
+
+#about4 {
+	background: url(../img/clients1.jpg) no-repeat;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+#about4 .glyphicon {
+	font-size: 22px;
+	margin-bottom: 10px;
+	background-color: #333333;
+	width: 80px;
+	border-radius: 100%;
+	padding:28px;
+	text-align: center;
+}
+#about4 .row {
+	margin-bottom: 40px;
+}
+#about4 .feature {
+	padding-top: 50px;
+}
+#about4 h4 {
+	font-size: 25px;
+}
+
+#sponsor {
+	background: url(../img/team3.png) no-repeat;
+	background-color: #B3B6B7;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	color: #000;
+	text-align: center;
+}
+#sponsor .row {
+	margin-bottom: 40px;
+}
+#sponsor .space {
+	margin-bottom: 40px;
+}
+footer {
+	background: #333333;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #ffffff;
+	font-weight: 100;
+}
+footer h4 {
+	margin-bottom: 30px;
+}
+#copyright {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #222222;
+	color: #ffffff;
+	text-align: center;
+}
+@media only screen and (max-width: 480px) {
+	.btn-lg {
+		margin-bottom: 10px;
+	}
+	#about .row .col-md-3 {
+		margin-bottom: 30px;
+	}
+	#about2, #about3 .btn {
+		width: 100%;
+	}
+	#about3 .img-mockup {
+		display: none;
+	}
+	#about3 {
+		text-align: center;
+	}
+}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+
+
